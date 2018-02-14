@@ -10,6 +10,7 @@ body{
   width: 80%;
   margin: auto;
   overflow:hidden;
+  max-width: 100%;
 }
 
 ul{
@@ -121,19 +122,36 @@ header .current a{
   padding-bottom: 30px;
 }
 
-#showcase .works a{
+#showcase .works  a#github {
   text-align: left;
-  font-size: 26px;
+  font-size: 50px;
   font-weight: bold;
   text-decoration: none;
   color: #ff99ff;
 }
 
-#showcase .works img{
+#showcase .works img#dbz_logo, #showcase .works img#pokemon_logo{
   width: 500px;
   height: auto;
+  padding-bottom: 20px;
+}
+
+#showcase .works img#dbz_home {
+  width: 800px;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#showcase .works img#pokemon_home, #showcase .works img#pokemon_rby, #showcase .works img#pokemon_rby2 {
+  width: 800px;
+  height: auto;
+  padding-bottom: 20px;
 }
 
 #showcase .contact{
   font-size: 22px;
+}
+
+.works {
+  text-align: center;
 }
