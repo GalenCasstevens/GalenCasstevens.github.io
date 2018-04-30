@@ -1,157 +1,182 @@
-body{
-  font: 15px/1.5 Arial, Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color: #000;
+body {
+  font-family: Acme;
+  background-color: #0039e6;
+  color:#ffff00;
 }
-
-/* Global */
-.container{
-  width: 80%;
-  margin: auto;
-  overflow:hidden;
-  max-width: 100%;
+.content {
+  padding-top: 100px;
+  margin-bottom: 50px;
 }
-
-ul{
-  padding: 0;
-  margin: 0;
+.navbar {
+  background: #333333;
+  border-bottom: 1px solid #000;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
-
-/* Header */
-header{
-  background: #000;
-  color: #ffffff;
-  padding-top: 30px;
-  min-height: 70px;
-  border-bottom: #a64dff 3px solid;
+.navbar-brand {
+  font-size: 3em;
+  margin-left: 20px;
 }
-
-header a{
-  color:#ffffff;
+.navbar-nav {
+  margin-right: 20px;
+}
+.navbar-brand, .navbar-brand:hover, .nav-link {
+  color:#ffff00;
+}
+.nav-item {
+  font-size: 1.5em;
+  margin: 10px;
+}
+.nav-link:hover {
+  color: #FFF;
+}
+.navbar-toggler-icon {
+  background-image: url(../img/menu-icon.png);
+}
+.menuIcon {
+    width: 35px;
+    height: 5px;
+    background-color: #ffff00;
+    margin: 6px 0;
+}
+h1 {
+  font-size: 3.8em;
+}
+h2 {
+  font-size: 3em;
+}
+.github {
+  color: red;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 40px;
+}
+.github a {
+  color: #ff1a1a;
+}
+a:hover {
+  color: #FFF;
   text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-}
-
-header ul{
-  padding: 0;
-  margin: 0;
-}
-
-header li{
-  float: left;
-  display: inline;
-  /* top right bottom left */
-  padding: 0 20px 0 20px;
-}
-
-header #name{
-  float:left;
-}
-
-header #name h1{
-  margin: 0;
-  color: #00ff00;
-}
-
-header nav{
-  float: right;
-  margin-top: 10px;
-}
-
-header .current a{
-  color:#00ff00;
   font-weight: bold;
 }
-
-#showcase{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  border-bottom: #a64dff 3px solid;
-  background-color: #333;
-  color: #a64dff;
+#skillsTitle:target {
+    padding-top: 100px;
 }
-
-#showcase .portrait{
+#worksTitle:target {
+  padding-top: 100px;
+}
+hr {
+  width: 700px;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+#aboutMe {
+  padding-top: 20px;
+}
+#aboutMeTitle {
+  padding-top: 40px;
+  padding-left: 400px;
+}
+#worksTitle {
+  text-align: center;
+  padding-top: 60px;
+}
+#contact {
+  text-align: center;
+  padding-top: 100px;
+}
+#intro {
+  font-size: 1.5em;
+  padding-left: 400px;
+}
+#skills {
+  padding-top: 250px;
+  text-align: center;
+}
+img#portrait {
+  width: 30%;
   border:1px solid black;
   border-radius: 50%;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   float: left;
-  width:300px;
+  margin-right: 20px;
 }
-
-#showcase .biography{
-  padding-left: 400px;
+.img-thumbnail {
+  margin: 20px;
 }
-
-#showcase .biography h1{
-  font-size: 26px;
+.row2 {
+  margin-top: 50px;
+}
+.skillsTitle {
+  font-size: 1.7em;
   font-weight: bold;
-
 }
-
-#showcase .biography p{
-  font-size: 18px;
-}
-
-#showcase .skills table{
+.worksTitle {
   text-align: center;
-  margin:auto;
-  border-collapse: collapse;
+  padding-top: 40px;
 }
-
-#showcase .skills td{
-  font-size: 30px;
-  font-weight: bold;
-  padding-left: 70px;
-  padding-right: 70px;
+.worksInfo {
+  font-size: 1.5em;
 }
-
-#showcase .skills img{
-  height:150px;
-  width:150px;
+.contactInfo {
+  font-size: 2em;
 }
-
-#showcase .row1text td, #showcase .row2text td{
-  padding-bottom: 10px;
+.skillsImage {
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
 }
-
-#showcase .row1images td{
-  padding-bottom: 30px;
+.skillsImage1 {
+  background-image: url(../img/java_icon.png);
 }
-
-#showcase .works  a#github {
-  text-align: left;
-  font-size: 50px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #ff99ff;
+.skillsImage2 {
+  background-image: url(../img/html5_icon.png);
 }
-
-#showcase .works img#dbz_logo, #showcase .works img#pokemon_logo{
-  width: 50%;
-  height: auto;
-  padding-bottom: 20px;
+.skillsImage3 {
+  background-image: url(../img/css3_icon.png);
 }
-
-#showcase .works img#dbz_home {
-  width: 80%;
-  height: auto;
-  padding-bottom: 100px;
+.skillsImage4 {
+  background-image: url(../img/javascript_icon.png);
 }
-
-#showcase .works img#pokemon_home, #showcase .works img#pokemon_rby, #showcase .works img#pokemon_rby2 {
-  width: 80%;
-  height: auto;
-  padding-bottom: 20px;
+.skillsImage5 {
+  background-image: url(../img/mongodb_icon.png);
 }
-
-#showcase .contact{
-  font-size: 22px;
+.skillsImage6 {
+  background-image: url(../img/node_icon.png);
 }
-
-.works {
+.skillsImage7 {
+  background-image: url(../img/bootstrap_icon.png);
+}
+.skillsImage8 {
+  background-image: url(../img/android_icon.png);
+}
+.worksScreenShots {
   text-align: center;
+  width: 100%;
+  margin: auto;
+}
+.pizzaSS2 {
+  padding-top: 10px;
+}
+.worksMobileScreenShots {
+  padding-top: 30px;
+  text-align: center;
+  margin: auto;
+  width: 35%;
+}
+.worksTabletScreenShots {
+  float: right;
+  width: 60%;
+  padding-top: 20px;
+}
+footer {
+  background: #333333;
+  border-top: 1px solid black;
+  text-align: center;
+  color: #ffff00;
+  margin: auto;
 }

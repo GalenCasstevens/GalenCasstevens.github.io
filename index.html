@@ -1,47 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="keywords" content="software developer, software development, galen casstevens, portfolio, web development, java">
-    <meta name="author" content="Galen Casstevens">
-    <title>Galen Casstevens | Welcome</title>
-    <link rel="icon" href="./img/portfolio_icon.png">
+    <title>Galen's Portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
   </head>
   <body>
-      <header>
-        <div class="container">
-          <div id="name">
-            <h1>Galen Casstevens</h1>
-          </div>
-          <nav>
-            <ul>
-              <li class="current"><a href="index.html">Home</a></li>
-              <li><a href="skills.html">Skills</a></li>
-              <li><a href="works.html">Works</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+    <nav class="navbar navbar-expand-lg navbar-inverse bg-inverse">
+  <a class="navbar-brand" href="#">Galen Casstevens</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="menuIcon"></div>
+    <div class="menuIcon"></div>
+    <div class="menuIcon"></div>
+  </button>
 
-      <section id="showcase">
-        <div class="container">
-          <img class="portrait" src="./img/portrait3.jpg">
-          <div class="biography">
-            <h1>About Me</h1>
-            <p>
-              My name is Galen, I am a recent computer science graduate
-              and I am currently pursuing a career in software development.
-              I created this portfolio to demonstrate my skills and some
-               of the works that I have created.
-            </p>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#skillsTitle"><i class="fas fa-wrench"></i> Skills</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#worksTitle"><i class="fas fa-code"></i> Works</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><i class="fas fa-envelope-square"></i> Contact</a>
+      </li>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="content">
+    <article id="aboutMe">
+      <section>
+        <img id="portrait" src="./img/portrait3.jpg" alt="">
+        <h1 id="aboutMeTitle">About Galen</h1>
+        <hr>
+        <p id="intro">
+          I am a recent computer science graduate and I am currently pursuing a career in software development.
+          I created this portfolio to demonstrate my skills and some of the works that I have created.
+        </p>
+      </section>
+    </article>
+
+    <article id="skills">
+      <section>
+        <h1 id="skillsTitle">Skills</h1>
+        <hr>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <p class="skillsTitle">Java</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage1"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 tableItem">
+            <p class="skillsTitle">HTML5</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage2"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 tableItem">
+            <p class="skillsTitle">CSS3</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage3"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 tableItem">
+            <p class="skillsTitle">JavaScript</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage4"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 row2">
+            <p class="skillsTitle">MongoDB</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage5"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 row2">
+            <p class="skillsTitle">Node JS</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage6"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 row2">
+            <p class="skillsTitle">Bootstrap</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage7"></div>
+            <!-- </div> -->
+          </div>
+          <div class="col-lg-3 col-sm-6 row2">
+            <p class="skillsTitle">Android Development</p>
+            <!-- <div class="img-thumbnail"> -->
+              <div class="skillsImage skillsImage8"></div>
+            <!-- </div> -->
           </div>
         </div>
       </section>
+    </article>
 
-      <section id="bottom">
+    <article id="works">
+      <section>
+        <span id="anchor1" class="anchor"></span>
+        <h1 id="worksTitle">Works</h1>
+        <hr>
+        <h2 class="worksTitle">Battleship Game</h2>
+        <p class="worksInfo">
+          I created the Battleship game with JavaScript and a little HTML and CSS. You type in a location in the
+          form in the bottom right and hit enter or press fire, then a message appears in the top left indicating
+          whether your guess was a hit, miss, or sank a ship. When the game is over you are told the number of guesses
+          it took you took you to win. The code implements a model-view-controller design pattern.
+        </p>
+        <img class="worksScreenShots" src="./img/battleship_ss.png" alt="">
+        <h2 class="worksTitle">Image Gallery</h2>
+        <p class="worksInfo">
+          This is a fantasy image gallery I created with HTML, CSS, and Bootstrap. It is responsive for mobile devices
+          and takes advantage of Bootstrap's grid system, jumbotron, and navbar.
+        </p>
+        <img class="worksScreenShots" src="./img/imageGallery_ss.png" alt="">
+        <img class="worksMobileScreenShots" src="./img/imageGalleryMobile_ss.png" alt="">
+        <img class="worksTabletScreenShots" src="./img/imageGalleryTablet_ss.png" alt="">
+        <h2 class="worksTitle">Pizza Website</h2>
+        <p class="worksInfo">
+          This is a fantasy pizza website I made using HTML, CSS, and Bootstrap. It takes advantage of Bootstrap's
+          navbar, list group, grid system, and badges.
+        </p>
+        <img class="worksScreenShots" src="./img/pizzaWebsite_ss.png" alt="">
+        <img class="worksScreenShots pizzaSS2" src="./img/pizzaWebsite2_ss.png" alt="">
+        <p class="github">
+          <a href="https://github.com/GalenCasstevens" target="_blank">Check out my GitHub here for everything I'm working on!</a>
+        </p>
       </section>
+    </article>
+
+    <article id="contact">
+      <section>
+        <h1>Contact Me</h1>
+        <hr>
+        <div class="contactInfo">
+          <p>Phone: (336) 710-7933</p>
+          <p>Email: galencasstevens@gmail.com</p>
+        </div>
+      </section>
+    </article>
+  </div>
+</div>
+
+<footer>Galen Casstevens</footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </body>
 </html>
