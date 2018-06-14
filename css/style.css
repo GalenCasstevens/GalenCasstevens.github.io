@@ -173,6 +173,13 @@ img#portrait {
   width: 60%;
   padding-top: 20px;
 }
+.cg {
+  float: right;
+  width: 35%;
+}
+.cgt {
+  width: 60%;
+}
 footer {
   background: #333333;
   border-top: 1px solid black;
