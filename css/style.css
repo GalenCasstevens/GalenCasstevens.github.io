@@ -173,11 +173,11 @@ img#portrait {
   width: 60%;
   padding-top: 20px;
 }
-.cg {
+.colorGameMobile {
   float: right;
   width: 35%;
 }
-.cgt {
+.colorGameTablet {
   width: 60%;
 }
 footer {
