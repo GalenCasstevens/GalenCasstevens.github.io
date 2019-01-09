@@ -60,9 +60,6 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-#skillsTitle:target {
-    padding-top: 100px;
-}
 #worksTitle:target {
   padding-top: 100px;
 }
@@ -81,7 +78,7 @@ hr {
 }
 #worksTitle {
   text-align: center;
-  padding-top: 60px;
+  padding-top: 250px;
 }
 #contact {
   text-align: center;
@@ -90,10 +87,6 @@ hr {
 #intro {
   font-size: 1.5em;
   padding-left: 400px;
-}
-#skills {
-  padding-top: 250px;
-  text-align: center;
 }
 img#portrait {
   width: 30%;
@@ -111,10 +104,6 @@ img#portrait {
 .row2 {
   margin-top: 50px;
 }
-.skillsTitle {
-  font-size: 1.7em;
-  font-weight: bold;
-}
 .worksTitle {
   text-align: center;
   padding-top: 40px;
@@ -125,43 +114,10 @@ img#portrait {
 .contactInfo {
   font-size: 2em;
 }
-.skillsImage {
-  width: 100%;
-  height: 250px;
-  background-size: cover;
-  background-position: center;
-}
-.skillsImage1 {
-  background-image: url(../img/java_icon.png);
-}
-.skillsImage2 {
-  background-image: url(../img/html5_icon.png);
-}
-.skillsImage3 {
-  background-image: url(../img/css3_icon.png);
-}
-.skillsImage4 {
-  background-image: url(../img/javascript_icon.png);
-}
-.skillsImage5 {
-  background-image: url(../img/mongodb_icon.png);
-}
-.skillsImage6 {
-  background-image: url(../img/node_icon.png);
-}
-.skillsImage7 {
-  background-image: url(../img/bootstrap_icon.png);
-}
-.skillsImage8 {
-  background-image: url(../img/android_icon.png);
-}
 .worksScreenShots {
   text-align: center;
   width: 100%;
   margin: auto;
-}
-.pizzaSS2 {
-  padding-top: 10px;
 }
 .worksMobileScreenShots {
   padding-top: 30px;
