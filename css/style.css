@@ -1,146 +1,153 @@
 body {
-  font-family: Acme;
-  background-color: #0039e6;
-  color:#ffff00;
+	font-family: Acme;
+	background-color: #0039e6;
+	color: #ffff00;
 }
 .content {
-  padding-top: 100px;
-  margin-bottom: 50px;
+	padding-top: 100px;
+	margin-bottom: 50px;
 }
 .navbar {
-  background: #333333;
-  border-bottom: 1px solid #000;
-  position: fixed;
-  width: 100%;
-  z-index: 5;
+	background: #333333;
+	border-bottom: 1px solid #000;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
 }
 .navbar-brand {
-  font-size: 3em;
-  margin-left: 20px;
+	font-size: 3em;
+	margin-left: 20px;
 }
 .navbar-nav {
-  margin-right: 20px;
+	margin-right: 20px;
 }
-.navbar-brand, .navbar-brand:hover, .nav-link {
-  color:#ffff00;
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link {
+	color: #ffff00;
 }
 .nav-item {
-  font-size: 1.5em;
-  margin: 10px;
+	font-size: 1.5em;
+	margin: 10px;
 }
 .nav-link:hover {
-  color: #FFF;
+	color: #fff;
 }
 .navbar-toggler-icon {
-  background-image: url(../img/menu-icon.png);
+	background-image: url(../img/menu-icon.png);
 }
 .menuIcon {
-    width: 35px;
-    height: 5px;
-    background-color: #ffff00;
-    margin: 6px 0;
+	width: 35px;
+	height: 5px;
+	background-color: #ffff00;
+	margin: 6px 0;
 }
 h1 {
-  font-size: 3.8em;
+	font-size: 3.8em;
 }
 h2 {
-  font-size: 3em;
+	font-size: 3em;
 }
 .github {
-  color: red;
-  text-align: center;
-  font-size: 3em;
-  padding-top: 40px;
+	color: red;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 40px;
 }
 .github a {
-  color: #ff1a1a;
+	color: #ff1a1a;
 }
 a:hover {
-  color: #FFF;
-  text-decoration: none;
-  font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
 }
 #worksTitle:target {
-  padding-top: 100px;
+	padding-top: 100px;
 }
 hr {
-  width: 700px;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+	width: 700px;
+	border: 0;
+	height: 1px;
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0.75),
+		rgba(0, 0, 0, 0)
+	);
 }
 #aboutMe {
-  padding-top: 20px;
+	padding-top: 20px;
 }
 #aboutMeTitle {
-  padding-top: 40px;
-  padding-left: 400px;
+	padding-top: 40px;
+	padding-left: 400px;
 }
 #worksTitle {
-  text-align: center;
-  padding-top: 250px;
+	text-align: center;
+	padding-top: 250px;
 }
 #contact {
-  text-align: center;
-  padding-top: 100px;
+	text-align: center;
+	padding-top: 100px;
 }
 #intro {
-  font-size: 1.5em;
-  padding-left: 400px;
+	font-size: 1.5em;
+	padding-left: 400px;
 }
 img#portrait {
-  width: 30%;
-  border:1px solid black;
-  border-radius: 50%;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  float: left;
-  margin-right: 20px;
-  margin-top: 75px;
+	width: 25%;
+	border: 1px solid black;
+	border-radius: 50%;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	float: left;
+	margin-right: 20px;
+	margin-top: 75px;
 }
 .img-thumbnail {
-  margin: 20px;
+	margin: 20px;
 }
 .row2 {
-  margin-top: 50px;
+	margin-top: 50px;
 }
 .worksTitle {
-  text-align: center;
-  padding-top: 40px;
+	text-align: center;
+	padding-top: 40px;
 }
 .worksInfo {
-  font-size: 1.5em;
+	font-size: 1.5em;
 }
 .contactInfo {
-  font-size: 2em;
+	font-size: 2em;
 }
 .worksScreenShots {
-  text-align: center;
-  width: 100%;
-  margin: auto;
+	text-align: center;
+	width: 100%;
+	margin: auto;
 }
 .worksMobileScreenShots {
-  padding-top: 30px;
-  text-align: center;
-  margin: auto;
-  width: 35%;
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+	width: 35%;
 }
 .worksTabletScreenShots {
-  float: right;
-  width: 60%;
-  padding-top: 20px;
+	float: right;
+	width: 60%;
+	padding-top: 20px;
 }
 .colorGameMobile {
-  float: right;
-  width: 35%;
+	float: right;
+	width: 35%;
 }
 .colorGameTablet {
-  width: 60%;
+	width: 60%;
 }
 footer {
-  background: #333333;
-  border-top: 1px solid black;
-  text-align: center;
-  color: #ffff00;
-  margin: auto;
+	background: #333333;
+	border-top: 1px solid black;
+	text-align: center;
+	color: #ffff00;
+	margin: auto;
 }
