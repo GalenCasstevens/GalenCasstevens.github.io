@@ -22,10 +22,6 @@ body {
 	margin-left: 20px;
 }
 
-.navbar-nav {
-	margin-right: 20px;
-}
-
 .navbar-brand,
 .navbar-brand:hover,
 .nav-link {
@@ -74,7 +70,6 @@ h2 {
 a:hover {
 	color: #fff;
 	text-decoration: none;
-	font-weight: bold;
 }
 
 #worksTitle:target {
