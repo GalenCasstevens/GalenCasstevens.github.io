@@ -3,10 +3,12 @@ body {
 	background-color: #0039e6;
 	color: #ffff00;
 }
+
 .content {
 	padding-top: 100px;
 	margin-bottom: 50px;
 }
+
 .navbar {
 	background: #333333;
 	border-bottom: 1px solid #000;
@@ -14,57 +16,71 @@ body {
 	width: 100%;
 	z-index: 5;
 }
+
 .navbar-brand {
 	font-size: 3em;
 	margin-left: 20px;
 }
+
 .navbar-nav {
 	margin-right: 20px;
 }
+
 .navbar-brand,
 .navbar-brand:hover,
 .nav-link {
 	color: #ffff00;
 }
+
 .nav-item {
 	font-size: 1.5em;
 	margin: 10px;
 }
+
 .nav-link:hover {
 	color: #fff;
 }
+
 .navbar-toggler-icon {
 	background-image: url(../img/menu-icon.png);
 }
+
 .menuIcon {
 	width: 35px;
 	height: 5px;
 	background-color: #ffff00;
 	margin: 6px 0;
 }
+
 h1 {
 	font-size: 3.8em;
 }
+
 h2 {
 	font-size: 3em;
 }
+
 .github {
 	color: red;
 	text-align: center;
 	font-size: 3em;
 	padding-top: 40px;
 }
+
 .github a {
 	color: #ff1a1a;
 }
+
 a:hover {
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
 }
+
 #worksTitle:target {
 	padding-top: 100px;
 }
+
 hr {
 	width: 700px;
 	border: 0;
@@ -76,74 +92,83 @@ hr {
 		rgba(0, 0, 0, 0)
 	);
 }
-#aboutMe {
-	padding-top: 20px;
-}
+
 #aboutMeTitle {
 	padding-top: 40px;
-	padding-left: 400px;
+	text-align: center;
 }
+
+#aboutMeHeaderHr {
+	margin-bottom: 25px;
+}
+
+#works {
+	margin-top: 20px;
+}
+
 #worksTitle {
 	text-align: center;
-	padding-top: 175px;
 }
+
 #contact {
 	text-align: center;
 	padding-top: 100px;
 }
+
 #intro {
 	font-size: 1.5em;
-	padding-left: 400px;
+	padding-left: 15px;
 }
-img#portrait {
-	width: 25%;
-	border: 1px solid black;
-	border-radius: 50%;
-	-webkit-border-radius: 500px;
-	-moz-border-radius: 500px;
-	float: left;
-	margin-right: 20px;
-	margin-top: 75px;
+
+#blogLink {
+	color: #ff1a1a;
 }
-.img-thumbnail {
-	margin: 20px;
-}
+
 .row2 {
 	margin-top: 50px;
 }
+
 .worksTitle {
 	text-align: center;
 	padding-top: 40px;
 }
+
 .worksInfo {
 	font-size: 1.5em;
 }
+
 .contactInfo {
 	font-size: 2em;
 }
+
 .worksScreenShots {
 	text-align: center;
 	width: 100%;
 	margin: auto;
 }
+
 .worksMobileScreenShots {
 	padding-top: 30px;
 	text-align: center;
 	margin: auto;
 	width: 35%;
 }
+
 .worksTabletScreenShots {
 	float: right;
 	width: 60%;
 	padding-top: 20px;
 }
+
 .colorGameMobile {
 	float: right;
 	width: 35%;
 }
+
 .colorGameTablet {
 	width: 60%;
 }
+
 footer {
 	background: #333333;
 	border-top: 1px solid black;
